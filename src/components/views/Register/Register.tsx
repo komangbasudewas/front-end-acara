@@ -51,7 +51,7 @@ const Register = () => {
           </p>
           {errors.root && (
             <p className="mb-2 font-medium text-danger">
-              {errors.root.message}
+              {errors?.root?.message}
             </p>
           )}
           <form

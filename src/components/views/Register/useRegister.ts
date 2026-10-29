@@ -61,8 +61,8 @@ const useRegister = () => {
       });
     },
     onSuccess: () => {
-      reset();
       router.push("/auth/register/success");
+      reset();
     },
   });
 
